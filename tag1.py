@@ -393,7 +393,7 @@ def bot(op):
                                      "STKID": "7",
                                      "STKPKGID": "1",
                                      "STKVER": "100" }
-                cl.sendMessage(ดีจ้า)
+                cl.sendMessage(msg)
                 cl.sendMessage(msg)
             elif msg.text in ["Hadeuh"]:
                 msg.contentType = 7
@@ -467,7 +467,7 @@ def bot(op):
             group = cl.getGroup(op.param1)
             cb = Message()
             cb.to = op.param1
-            cb.text = cl.getContact(op.param2).displayName + "[\n\n.¸.•´¸.•´¨) ¸.•*¨) ยินดีต้อนรับเข้ากลุ่มนะคะ\n( ¸.•´ (¸.•´ .•´ \n( ´¸．．★／＼︽﹨︽﹨︽☆︽＼．☆ \n☆．　／我　＼︽﹨︽﹨︽★︽＼° \n☆　│來　║﹌﹌﹌﹌﹌﹌﹌│．▲\n ★　　│簽簽║　田　╭┬╮田│◢█◣ \n＠　│　囉║　　　│││　◢███◣ \n║╓╥╥☆. ●　 ●. ╥★╥╥▊╥╥╖\n ╔╩╬╬╬╬. _/█_/█_╔╩╬╬╬╬╬╬╬ \n\n--เชิญคุยกันได้ตามสบายเรยคะ--"
+            cb.text = cl.getContact(op.param2).displayName + "\n.¸.•´¸.•´¨) ¸.•*¨) ยินดีต้อนรับเข้ากลุ่มนะคะ\n( ¸.•´ (¸.•´ .•´ \n( ´¸．．★／＼︽﹨︽﹨︽☆︽＼．☆ \n☆．　／我　＼︽﹨︽﹨︽★︽＼° \n☆　│來　║﹌﹌﹌﹌﹌﹌﹌│．▲\n ★　　│簽簽║　田　╭┬╮田│◢█◣ \n＠　│　囉║　　　│││　◢███◣ \n║╓╥╥☆. ●　 ●. ╥★╥╥▊╥╥╖\n ╔╩╬╬╬╬. _/█_/█_╔╩╬╬╬╬╬╬╬ \n\n--ขอให้มีความสุขกับบ้านหลังนี้นะคะ--"
             cl.sendMessage(cb)
 
         if op.type == 15:
